@@ -1,0 +1,44 @@
+
+  
+  html,
+  body {
+    height: 100%;
+    width: 100%;
+    background-color: #999999;
+  }
+  
+  div.wrapper {
+    display: flex;
+    background-color: #171718;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    position: relative;
+  }
+  
+  
+  #result{
+    font-family: Helvetica;
+    font-size: 64px;
+    color: greenyellow;
+    margin: 0px;
+  }
+
+.contact-form input
+ {
+
+    background-color: #444;
+    
+    color: #eee;
+    border: none;
+    font-family: "Oswald", sans-serif;
+    font-size: 1.8rem;
+    letter-spacing: 0.1rem;
+}
+
+label, h1{
+    color:white;
+    font-family: "Oswald", sans-serif;
+}
